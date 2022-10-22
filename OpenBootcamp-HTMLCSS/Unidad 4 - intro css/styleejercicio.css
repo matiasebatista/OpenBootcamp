@@ -1,0 +1,15 @@
+.fuenteencabezado {
+    font-family: fantasy;
+    font-style:italic
+}
+#encabezado{
+    color:red;
+}
+
+#elemento-1{
+    color:red;
+    font-size: 2rem;
+}
+#elemento-4{
+    color:blue;
+}
