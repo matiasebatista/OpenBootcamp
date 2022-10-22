@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="resultado.html" method="GET">
+      <div>
+        <label for="nombreusuario">Nombre Usuario</label>
+        <input name="nombreusuario" id="nombreusuario" />
+      </div>
+      <div>
+        <label for="comentario">Comentario</label>
+        <textarea name="comentario" id="comentario"></textarea>
+      </div>
+      <div>
+        <label for="password">Contraseña</label>
+        <input type="password" name="nombreusuario" id="password" />
+      </div>
+      <!-- Como aun no aplico JS o TS, con esto realizado solo aparecen las cosas en la URL-->
+      <button type="submit">Enviar</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
