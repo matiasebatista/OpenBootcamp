@@ -1,0 +1,23 @@
+.hover:hover {
+    color:blue;
+} /*Se utiliza cuando se pasa el mousse arriba*/
+
+.enlace:visited{
+    color:red;
+}
+.conteiner{
+    background-color:aquamarine;
+    width: 300px;
+    height: 300px;
+}
+span.frase{
+    font-style: italic;
+}
+span.frase::before {
+    content: '<< ';
+    font-size: xx-small;
+}
+span.frase::after {
+    content: ' >>';
+    font-size: xx-small;
+}

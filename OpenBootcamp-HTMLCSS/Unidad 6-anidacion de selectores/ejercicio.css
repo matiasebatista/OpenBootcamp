@@ -1,0 +1,14 @@
+span.boton::before{
+    content: 'Pasa por encima';
+   
+}
+span.boton:hover::before{
+    content:'hecho'
+}
+
+
+.efecto:hover{
+    color:white;
+    background-color: green;
+     text-transform: 'hecho';
+}
