@@ -1,0 +1,35 @@
+div{
+    border: 1px solid grey;
+}
+.static{
+    margin:20px;
+    left:10px; /* no afecta por ser static */ 
+}
+.relative{
+    position:relative;
+    left:80px;/* va relativo al posicionamiento original */ 
+}
+.fixed{
+    position:fixed; /* se coloca fijo independientemente de lo que suceda en la pantalla sigue igual*/
+bottom: 0px;
+left:0px
+}
+.absolut{ /* se coloca en relacion algo y se fija*/
+    position: absolute;
+    top:0px;
+}
+
+.contenedorOverflow{
+    width: 200px;
+    height:100px
+}
+.imgprinc{
+    width: 100px;
+    height: 100px;
+}
+
+.galeria{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
